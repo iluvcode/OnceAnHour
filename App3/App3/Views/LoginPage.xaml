@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Views.LoginPage">
+    <StackLayout x:Name="MasterLayout">
+        <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+            <Image x:Name="LoginIcon" Source="LoginIcon.png" Margin="0,10,0,0"></Image>
+        </StackLayout>
+        <StackLayout x:Name="LoginEntries" VerticalOptions="StartAndExpand">
+        <StackLayout.Padding>
+            <OnIdiom x:TypeArguments="Thickness">
+                    <OnIdiom.Phone>10,0,10,0</OnIdiom.Phone>
+                <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
+            </OnIdiom>
+        </StackLayout.Padding>
+
+            <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="True"></ActivityIndicator>
+            
+            <Label Text="UserName" x:Name="LabelUserName"></Label>
+            <Entry Placeholder="UserName" x:Name="Entry_UserName" ></Entry>
+            <Label Text="Password" x:Name="LabelPassword"></Label>
+            <Entry Placeholder="Password" x:Name="TextPassword"></Entry>
+            <Label Text="ConfirmPassword" x:Name="LabelConfirmPassword"></Label>
+            <Entry Placeholder="ConfirmPassword" x:Name="TextConfirmPassword"></Entry>
+            <Label Text="FullName" x:Name="LabelFullName"></Label>
+            <Entry Placeholder="FullName" x:Name="TextFullName"></Entry>
+            <Label Text="City" x:Name="LabelCity"></Label>
+            <Entry Placeholder="City" x:Name="TextCity"></Entry>
+            <Label Text="State" x:Name="LabelState"></Label>
+            <Entry Placeholder="State" x:Name="TextState"></Entry>
+            <Label Text="Country" x:Name="LabelCountry"></Label>
+            <Entry Placeholder="Country" x:Name="TextCountry"></Entry>
+            <Label Text="AgeGroup" x:Name="LabelAgeGroup"></Label>
+            <Entry Placeholder="AgeGroup" x:Name="TextAgeGroup"></Entry>
+            <Button Text="Register" x:Name="ButtonSignin" Clicked="ButtonSignin_Clicked"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
