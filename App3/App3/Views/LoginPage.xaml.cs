@@ -56,8 +56,8 @@ namespace App3.Views
                 {
                     DisplayAlert("Registration", " Login success", "ok");
                   
-                   App.UserDatabase.SaveUser(user);
-                    Navigation.PushAsync(new LoginPage());
+                    App.UserDatabase.SaveUser(user);                  
+
                 }
                 else
                 {

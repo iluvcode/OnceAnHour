@@ -55,3 +55,12 @@ C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.Logi
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.csproj.CopyComplete
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.exe
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.pdb
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhone\Debug\SQLite-net.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhone\Debug\SQLite-net.pdb
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhone\Debug\SQLite.Net.Platform.XamarinIOS.Unified.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhone\Debug\SQLite.Net.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.sqlite3.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.AccountInfo.xaml.g.cs

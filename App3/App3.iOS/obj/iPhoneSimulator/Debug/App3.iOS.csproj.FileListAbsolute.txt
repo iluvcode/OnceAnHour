@@ -1,5 +1,13 @@
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\App3.iOS.exe
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\App3.iOS.pdb
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLite-net.pdb
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLite.Net.Platform.XamarinIOS.Unified.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLite.Net.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
@@ -54,12 +62,5 @@ C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhoneSimulator\Debug\App3
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhoneSimulator\Debug\App3.iOS.csproj.CopyComplete
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhoneSimulator\Debug\App3.iOS.exe
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhoneSimulator\Debug\App3.iOS.pdb
-C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
-C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLite-net.pdb
-C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
-C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
-C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
-C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhoneSimulator\Debug\App3.iOS.csprojAssemblyReference.cache
-C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLite.Net.Platform.XamarinIOS.Unified.dll
-C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhoneSimulator\Debug\SQLite.Net.dll
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhoneSimulator\Debug\App3.iOS.AccountInfo.xaml.g.cs

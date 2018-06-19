@@ -28,10 +28,15 @@
             <Entry Placeholder="City" x:Name="TextCity"></Entry>
             <Label Text="State" x:Name="LabelState"></Label>
             <Entry Placeholder="State" x:Name="TextState"></Entry>
-            <Label Text="Country" x:Name="LabelCountry"></Label>
-            <Entry Placeholder="Country" x:Name="TextCountry"></Entry>
+            
             <Label Text="AgeGroup" x:Name="LabelAgeGroup"></Label>
             <Entry Placeholder="AgeGroup" x:Name="TextAgeGroup"></Entry>
+
+            <Label Text="PhoneNumber" x:Name="LabelPhoneNumber"></Label>
+            <Entry Placeholder="PhoneNumber" x:Name="EntryPhoneNumber" ></Entry>
+            <Label Text="Country" x:Name="LabelCountry"></Label>
+            <Entry Placeholder="Country" x:Name="TextCountry"></Entry>
+                
             <Button Text="Register" x:Name="ButtonSignin" Clicked="ButtonSignin_Clicked"></Button>
         </StackLayout>
     </StackLayout>
