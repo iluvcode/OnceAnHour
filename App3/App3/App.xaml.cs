@@ -15,7 +15,7 @@ namespace App3
 		{
 			InitializeComponent();
 
-			MainPage = new AccountInfo();
+			MainPage = new NavigationPage(new LoginPage());
 		}
 
 		protected override void OnStart ()

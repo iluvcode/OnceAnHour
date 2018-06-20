@@ -28,16 +28,27 @@ namespace App3.Views
             LoginIcon.HeightRequest = Constants.LoginIconHeight;
                        
             EntryPhoneNumber.Completed += (s, e) => ButtonSignin_Clicked(s, e);
+
+            
         }
 
         //https://www.codeproject.com/Articles/1097179/SQLite-with-Xamarin-Forms-Step-by-Step-guide
-        void ButtonSignin_Clicked(object sender, EventArgs e)
+        async void ButtonSignin_Clicked(object sender, EventArgs e)
         {
             //TextUserName.Text
             
-            User user = new User(Convert.ToInt32(EntryPhoneNumber.Text));
-            App.UserDatabase.SaveUser(user);
-            DisplayAlert("Registration", " Login success", "ok");
+            User user = new User(EntryPhoneNumber.Text);
+            var userId =  App.UserDatabase.SaveUser(user);
+
+            var accountPage = new AccountInfo(new User
+            {
+                Id = userId,
+                PhoneNumber = EntryPhoneNumber.Text
+            });
+            //accountPage.BindingContext = ;
+
+            await Navigation.PushAsync(accountPage);
+           // DisplayAlert("Registration", " Login success", "ok");
 
             //if (user.CheckIfPasswordMatches())
             //{

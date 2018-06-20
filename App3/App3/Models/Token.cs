@@ -7,7 +7,7 @@ namespace App3.Models
 {
     public class Token
     {
-        [PrimaryKey]
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
         public string AccessToken { get; set; }

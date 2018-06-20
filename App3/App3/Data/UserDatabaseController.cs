@@ -19,7 +19,7 @@ namespace App3.Data
             database.CreateTable<User>();
         }
 
-        public User GetUser()
+        public User GetUser(string phoneNumber)
         {
             lock (locker)
             {
@@ -29,7 +29,7 @@ namespace App3.Data
                 }
                 else
                 {
-                    return database.Table<User>().First();
+                    return database.Table<User>().Where(a => a.PhoneNumber == phoneNumber).FirstOrDefault();
                 }
             }
         }
@@ -38,10 +38,17 @@ namespace App3.Data
         {
             lock (locker)
             {
-                if (user.Id != 0)
+                var userInfo = GetUser(user.PhoneNumber);
+
+                if (userInfo != null)
                 {
-                    database.Update(user);
-                    return user.Id;
+                    userInfo.Country = user.Country;
+                    userInfo.State = user.State;
+                    userInfo.City = user.City;
+                    userInfo.AgeGroup = user.AgeGroup;
+
+                    database.Update(userInfo);
+                    return userInfo.Id;
                 }
                 else
                 {

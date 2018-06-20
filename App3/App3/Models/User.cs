@@ -7,11 +7,11 @@ namespace App3.Models
 {
     public class User
     {
-        [PrimaryKey]
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
         [NotNull]
-        public long PhoneNumber { get; set; }     
+        public string PhoneNumber { get; set; }     
         public string City { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
@@ -22,7 +22,7 @@ namespace App3.Models
 
         }
 
-        public User(long phoneNumber,  string city, string state, string country, string ageGroup)
+        public User(string phoneNumber,  string city, string state, string country, string ageGroup)
         {
             PhoneNumber = phoneNumber;
             City = city;
@@ -31,7 +31,7 @@ namespace App3.Models
             AgeGroup = ageGroup;
         }
 
-        public User(long phoneNumber)
+        public User(string phoneNumber)
         {
             PhoneNumber = phoneNumber;
         }

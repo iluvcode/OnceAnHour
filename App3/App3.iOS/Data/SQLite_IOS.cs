@@ -19,7 +19,7 @@ namespace App3.iOS.Data
 
         public SQLiteConnection GetConnection()
         {
-            var filename = "Everyhour.db3";
+            var filename = "Onceanhour.db3";
             string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal); // Documents folder
             string libraryPath = Path.Combine(documentsPath, "..", "Library"); // Library folder
             var path = Path.Combine(libraryPath, filename);
