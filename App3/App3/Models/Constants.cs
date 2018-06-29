@@ -13,5 +13,7 @@ namespace App3.Models
         public static Color MainTextColor = Color.White;
 
         public static int LoginIconHeight = 50;
+
+        public static string NoInternetText = "No Internet, please reconnect";
     }
 }

@@ -4,6 +4,7 @@
              x:Class="App3.Views.LoginPage">
     <StackLayout x:Name="MasterLayout">
         <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+            <Label x:Name="LabelNoInternet" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Red"></Label>
             <Image x:Name="LoginIcon" Source="LoginIcon.png" Margin="0,10,0,0"></Image>
         </StackLayout>
         <StackLayout x:Name="LoginEntries" VerticalOptions="StartAndExpand">

@@ -26,6 +26,7 @@ namespace App3.Views
             LabelPhoneNumber.TextColor = Constants.MainTextColor;           
             ActivitySpinner.IsVisible = false;
             LoginIcon.HeightRequest = Constants.LoginIconHeight;
+            App.StartCheckIfInternet(LabelNoInternet, this);
                        
             EntryPhoneNumber.Completed += (s, e) => ButtonSignin_Clicked(s, e);
 
