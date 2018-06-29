@@ -49,27 +49,7 @@ namespace App3.Views
             //accountPage.BindingContext = ;
 
             await Navigation.PushAsync(accountPage);
-           // DisplayAlert("Registration", " Login success", "ok");
-
-            //if (user.CheckIfPasswordMatches())
-            //{
-            //    if (user.CheckInformation())
-            //    {
-            //        DisplayAlert("Registration", " Login success", "ok");
-                  
-            //        App.UserDatabase.SaveUser(user);                  
-
-            //    }
-            //    else
-            //    {
-            //        DisplayAlert("Registration", "Please enter all fields", " ok");
-            //    }
-            //}
-            //else
-            //{
-            //    DisplayAlert("Registration", "Password doesn't match", " ok");
-            //    TextPassword.Focus();
-            //}
+           
 
             
         }
