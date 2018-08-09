@@ -65,3 +65,7 @@ C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\bin\iPhone\Debug\zh-Hant\Xamar
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.csproj.CopyComplete
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.exe
 C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.pdb
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.csprojAssemblyReference.cache
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.MasterDetail.xaml.g.cs
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.MasterDetailMaster.xaml.g.cs
+C:\Users\sandeepp\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.MasterDetailDetail.xaml.g.cs
