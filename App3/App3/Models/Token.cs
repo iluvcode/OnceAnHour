@@ -15,5 +15,7 @@ namespace App3.Models
         public string ErrorDescription { get; set; }
 
         public DateTime ExpireDate { get; set; }
+
+        public int ExpireIn { get; set; }
     }
 }

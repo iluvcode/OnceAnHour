@@ -39,16 +39,22 @@ namespace App3.Views
             //TextUserName.Text
             
             User user = new User(EntryPhoneNumber.Text);
-            var userId =  App.UserDatabase.SaveUser(user);
-
-            var accountPage = new AccountInfo(new User
+            var result = await App.RestService.Login(user);
+            if(result != null)
             {
-                Id = userId,
-                PhoneNumber = EntryPhoneNumber.Text
-            });
-            //accountPage.BindingContext = ;
+                var userId = App.UserDatabase.SaveUser(user);
 
-            await Navigation.PushAsync(accountPage);
+                var accountPage = new AccountInfo(new User
+                {
+                    Id = userId,
+                    PhoneNumber = EntryPhoneNumber.Text
+                });
+                //accountPage.BindingContext = ;
+
+                await Navigation.PushAsync(accountPage);
+            }
+
+           
            
 
             

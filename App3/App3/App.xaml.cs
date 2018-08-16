@@ -10,43 +10,44 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace App3
 {
-	public partial class App : Application
-	{
+    public partial class App : Application
+    {
         static TokenDatabaseController tokenDatabase;
         static UserDatabaseController userDatabase;
+        static RestService restService;
         private static Label labelScreen;
         private static bool hasInternet;
         private static Page currentPage;
         private static Timer timer;
         private static bool noInterShow;
 
-        public App ()
-		{
-			InitializeComponent();
+        public App()
+        {
+            InitializeComponent();
 
-			MainPage = new NavigationPage(new LoginPage());
-		}
+            MainPage = new NavigationPage(new LoginPage());
+        }
 
-		protected override void OnStart ()
-		{
-			// Handle when your app starts
-		}
+        protected override void OnStart()
+        {
+            // Handle when your app starts
+        }
 
-		protected override void OnSleep ()
-		{
-			// Handle when your app sleeps
-		}
+        protected override void OnSleep()
+        {
+            // Handle when your app sleeps
+        }
 
-		protected override void OnResume ()
-		{
-			// Handle when your app resumes
-		}
+        protected override void OnResume()
+        {
+            // Handle when your app resumes
+        }
 
         public static UserDatabaseController UserDatabase
         {
             get
             {
-                if(userDatabase == null)
+                if (userDatabase == null)
                 {
                     userDatabase = new UserDatabaseController();
                 }
@@ -66,6 +67,17 @@ namespace App3
             }
         }
 
+        public static RestService RestService
+        {
+            get
+            {
+                if(restService == null)
+                {
+                    restService = new RestService();
+                }
+                return restService;
+            }
+        }
 
         public static void StartCheckIfInternet(Label label, Page page)
         {

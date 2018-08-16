@@ -15,5 +15,7 @@ namespace App3.Models
         public static int LoginIconHeight = 50;
 
         public static string NoInternetText = "No Internet, please reconnect";
+
+        public static string LoginUrl = "https://google.com/api/auth/login";
     }
 }
